@@ -1,5 +1,5 @@
 # based from https://github.com/ansible/ansible-docker-base
-FROM centos:6.6
+FROM centos:centos6
 MAINTAINER Yuji ODA
 
 RUN yum clean all && \
