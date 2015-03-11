@@ -5,4 +5,4 @@ RUN yum clean all && \
     yum -y install epel-release && \
     yum -y install git ansible MySQL-python
 
-RUN echo '[local]\nlocalhost\n' > /etc/ansible/hosts
+RUN echo -e "[local]\nlocalhost\n" > /etc/ansible/hosts
